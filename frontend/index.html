@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Runner Game</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <input id="playerName" type="text" placeholder="Enter Your Name" style="
+        display:none;
+        position:absolute;
+        top:55%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        padding:10px;
+        font-size:20px;
+    " />
+
+    <button id="submitScore" style="
+        display:none;
+        position:absolute;
+        top:65%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        padding:10px 20px;
+        font-size:20px;
+        cursor:pointer;
+    ">
+        Submit Score
+    </button>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3/dist/phaser.js"></script>
+    <script type="module" src="./game.js"></script>
+
+</body>
+
+</html>
