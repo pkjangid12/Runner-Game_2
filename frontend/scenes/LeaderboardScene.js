@@ -30,7 +30,7 @@ export default class LeaderboardScene extends Phaser.Scene {
 
         // Fetch leaderboard data
         const response = await fetch(
-            "http://localhost:5000/scores"
+            "https://runner-game-2.onrender.com/scores"
         );
 
         const leaderboard = await response.json();

@@ -41,7 +41,7 @@ export default class GameOverScene extends Phaser.Scene {
                 }
 
                 const response = await fetch(
-                    "http://192.168.1.11:5000/scores",
+                    "https://runner-game-2.onrender.com/scores",
                     {
                         method: "POST",
                         headers: {
